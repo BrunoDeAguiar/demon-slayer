@@ -94,7 +94,7 @@ section.rengoku h2, section.uzui h2, section.gyu h2 {
     font-size: 5vw;
 }
 
-section.rengoku p, section.uzui p, section.gyu {
+section.rengoku p, section.uzui p, section.gyu p {
     text-indent: 15px;
     font-size: 3vw;
     text-align: justify;
@@ -102,7 +102,7 @@ section.rengoku p, section.uzui p, section.gyu {
 }
 
 section#img02 {
-    background: url('../imagens/uzui.png') center center fixed;
+    background: url('../imagens/uzui.png') right center fixed;
     background-size: cover;
 }
 
@@ -116,13 +116,14 @@ section.uzui h2 {
 }
 
 section#img03 {
-    background: url('../imagens/tomioka.png') center center fixed;
+    background: url('../imagens/tomioka.png') left center fixed;
     background-size: cover;
 }
 
 section.gyu h2 {
     background-image: linear-gradient(to right, rgb(0, 89, 255), transparent);
 }
+
 
 footer {
     text-align: center;
