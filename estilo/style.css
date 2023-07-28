@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-size: 6vw;
+    padding-top: 50px;
+}
+
+header > p {
+    font-size: 3vw;
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section div {
+    display: inline-block;
+}
+
+section.imagem {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 2em;
+    
+}
+
+section.imagem h1 {
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.505);
+    font-size: 5vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.817);
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.817);
+    font-weight: bold;
+    line-height: 2em;
+    font-size: 3vw;
+    padding: 10px;
+}
+
+section.imagem {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 2em;
+    
+}
+
+
+section.imagem2 h1 {
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.505);
+    font-size: 5vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.817);
+}
+
+section.imagem2 p {
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.817);
+    font-weight: bold;
+    line-height: 2em;
+    font-size: 3vw;
+    padding: 10px;
+}
+
+section#img02 {
+    background: url('../imagens/Tengen-Uzui.png') top center fixed;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
