@@ -47,6 +47,7 @@ section div {
 }
 
 section.imagem {
+    margin-bottom: 100px;
     text-align: right;
     padding-right: 30px;
     font-size: 2em;
@@ -71,9 +72,14 @@ section.imagem p {
     padding: 10px;
 }
 
-section.imagem {
-    text-align: right;
-    padding-right: 30px;
+section#img01 {
+    background: url('../imagens/rengoku.png') top center fixed;
+    background-size: cover;
+}
+
+section.imagem2 {
+    text-align: left;
+    padding-left: 30px;
     font-size: 2em;
     
 }
