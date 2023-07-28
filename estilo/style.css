@@ -102,7 +102,7 @@ section.rengoku p, section.uzui p, section.gyu p {
 }
 
 section#img02 {
-    background: url('../imagens/uzui.png') right center fixed;
+    background: url('../imagens/uzui.png') center right fixed;
     background-size: cover;
 }
 
